@@ -7,6 +7,12 @@ use Illuminate\Support\Facades\Schema;
 class CreateUsersTable extends Migration
 {
     /**
+* The table associated with the model.
+*
+* @var string
+*/
+protected $table = 'tasks';
+    /**
      * Run the migrations.
      *
      * @return void
